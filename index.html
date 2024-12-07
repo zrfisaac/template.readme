@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-		<title>Template Readme</title>
+		<title>ZRFISAAC</title>
 		<meta name="description" content="An awesome docsify site for publishing some content on the web.">
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 		<link  rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
@@ -16,7 +16,7 @@
 				name: 'ZRFISAAC',
 				auto2top: true,
 				loadSidebar: true,
-				hideSidebar: true
+				hideSidebar: true,
 				maxLevel: 0,
 				subMaxLevel: 3,
 				search: {
@@ -35,7 +35,11 @@
 		<script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 		<script type="module">
 			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-			mermaid.initialize({ startOnLoad: true });
+			mermaid.initialize({
+				startOnLoad: true,
+				darkMode: true,
+				theme: 'dark',
+			});
 			window.mermaid = mermaid;
 		</script>
 		<script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
