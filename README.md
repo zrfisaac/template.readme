@@ -29,3 +29,46 @@ Run `npx serve .` (Node.js users) or `python -m http.server 8000` (Python users)
 ## Docsify Documentation
 
 To learn more about using Docsify, visit https://docsify.js.org.
+
+
+$$
+V = I \cdot R
+$$
+
+
+```mermaid
+erDiagram
+    tb_client {
+        INT cl_client PK "Client code (primary key)"
+        VARCHAR cl_name "Client name"
+        VARCHAR cl_address "Client address"
+        VARCHAR cl_phone "Client phone"
+        VARCHAR cl_email "Client email"
+    }
+
+    tb_product {
+        INT cl_product PK "Product code (primary key)"
+        VARCHAR cl_name "Product name"
+        VARCHAR cl_description "Product description"
+        DECIMAL cl_price "Product price"
+    }
+
+    tb_order {
+        INT cl_order PK "Order code (primary key)"
+        INT cl_client FK "Client code (foreign key)"
+        DATETIME cl_date "Order date"
+        DECIMAL cl_value "Total order value"
+    }
+
+    tb_order_item {
+        INT cl_order_item PK "Order item code (primary key)"
+        INT cl_order FK "Order code (foreign key)"
+        INT cl_product FK "Product code (foreign key)"
+        INT cl_quantity "Quantity of the item in the order"
+        DECIMAL cl_price "Unit price of the item in the order"
+    }
+
+    tb_client ||--o{ tb_order : "places"
+    tb_order ||--o{ tb_order_item : "contains"
+    tb_product ||--o{ tb_order_item : "is part of"
+```
