@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/android-apk-6DAF00?style=flat-square)](#)
 [![](https://img.shields.io/badge/windows-exe-6DAF00?style=flat-square)](#)
 
-# Project Name
+# <img src="favicon.png" alt="Logo" width="32" height="32"> Project Name
 
 **Brief Description:** A concise, one-line summary of what this project does or aims to achieve.
 
