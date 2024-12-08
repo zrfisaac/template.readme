@@ -1,7 +1,7 @@
 [![](https://img.shields.io/badge/-english-4169E1?style=for-the-badge)](README.en.md)
 [![](https://img.shields.io/badge/português--f9c22b?style=for-the-badge)](README.pt.md)
 ---
-[![](https://img.shields.io/badge/version-1.0.0-007EC6?style=flat-square)](#)
+[![](https://img.shields.io/badge/version-0.0.9-007EC6?style=flat-square)](#)
 [![](https://img.shields.io/badge/android-apk-6DAF00?style=flat-square)](#)
 [![](https://img.shields.io/badge/windows-exe-6DAF00?style=flat-square)](#)
 
