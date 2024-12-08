@@ -1,7 +1,8 @@
+[![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zrfisaac/template.readme)
 [![](https://img.shields.io/badge/-english-4169E1?style=for-the-badge)](README.en.md)
 [![](https://img.shields.io/badge/português--f9c22b?style=for-the-badge)](README.pt.md)
 ---
-[![](https://img.shields.io/badge/version-0.0.9-007EC6?style=flat-square)](#)
+[![](https://img.shields.io/badge/version-0.0.10-007EC6?style=flat-square)](#)
 [![](https://img.shields.io/badge/android-apk-6DAF00?style=flat-square)](#)
 [![](https://img.shields.io/badge/windows-exe-6DAF00?style=flat-square)](#)
 
